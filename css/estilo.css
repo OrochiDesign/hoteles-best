@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rampart One', cursive;
+    color: #3c0069;
+    background: rgba(255, 165, 0, 0.2);
+}
+h1{
+    font-size: 2.2em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.3em;
+}
+p{
+    font-size: 1.1em;
+    font-family: 'Staatliches', cursive;
+    color: rgba(0, 0, 0, 0.74);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-light{
+    background: linear-gradient(60deg, aqua, blue);
+    transition: 1s;
+    float: right;
+}
+.btn-light:hover{
+    background: linear-gradient(120deg, blue, aqua);
+    color: black;
+    transform: scale(0.9);
+}
+.btn-dark{
+    background: linear-gradient(60deg, crimson, black);
+    transition: 1s;
+}
+.btn-dark:hover{
+    background: linear-gradient(120deg, black, crimson);
+    color: orangered;
+    transform: scale(0.9);
+}
+.py-80{
+    padding: 80px 0;
+}
+/*
+.py-50{
+    padding: 50px 0;
+}
+*/
+.py-30{
+    padding: 30px 0;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
+}
+
+.logo{
+    font-size: 2.3em;
+    float: left;
+}
+h2 a{
+    color: #3636ff;
+}
+ul{
+    float: right;
+    list-style: none;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 1s;
+}
+ul li a:hover{
+    color: black;
+    transform: scale(0.9);
+}
+ul li a.current{
+    color: black;
+    background: #ffff8d;
+    border-radius: 30px;
+    transition: 1s;
+}
+ul li a.current:hover{
+    color: blue;
+    background: #ffc544;
+    transform: scale(0.9);
+}
+#showcase{
+    background: url(../img/banner2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding: 60px 60px 20px;
+    margin-top: 40px;
+}
+#showcase h1{
+    color: #2939ff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.large{
+    color: #848484;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+#reservation{
+    margin-bottom: 25px;
+}
+#reservation h3{
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: black;
+}
+#reservation a{
+    float: right;
+    margin-right: 120px;
+}
+#feactures .feactures-1{
+    background: url(../img/hoteles1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#feactures .feactures-2{
+    background: url(../img/hoteles2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#feactures .feactures-3{
+    background: url(../img/hoteles3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#feactures h4{
+    color: #2311ff;
+    padding-bottom: 20px;
+}
+#feactures p{
+    color: #e5e5e5;
+}
+
+#mainfooter{
+    text-align: center;
+}
+#mainfooter:after{
+    content: 'orochidesign@hotmail.com';
+    color: black;
+    background: linear-gradient(45deg, yellow, orange, red);
+    padding: 2px 8px;
+    border-radius: 30px;
+}
+.copy{
+    color: indigo;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 20px;
+}
+#about{
+    background: radial-gradient(rgba(255, 0, 0, 0.93), rgba(255, 98, 0, 0.19));
+}
+#about .about-content{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+}
+#about h1{
+    text-align: center;
+    color: #3a3aff;
+    margin: 20px 0;
+    font-weight: 100;
+}
+#about p{
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.about-img{
+    float: right;
+    width: 50%;
+    
+}
+.about-img img{
+    width: 100%;
+    border-radius: 40px;
+    padding: 20px 0;
+    height: 500px;
+}
+#testimonial{
+    background: url(../img/viaje2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: auto;
+}
+#testimonial h2{
+    font-weight: 100;
+    color: white;
+    margin: 20px 0;
+}
+#testimonial p{
+    color: #cbcbcb;
+}
+.testimonial-content{
+    background: rgba(77,77,77,0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    
+}
+.testimonial-content img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+    object-fit: cover;
+}
+hr{
+    background: linear-gradient(to left, orange, navy);
+    height: 10px;
+    border: none;
+}
+#contact{
+    color: crimson;
+}
+#contact h1{
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 1.8em;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px inset #ddd;
+}
+.btn-enviar{
+    background: linear-gradient(40deg, navy 30%, rgb(0, 188, 0));
+    float: right;
+    margin: 20px 0;
+    padding: 10px 50px;
+    transition: 1s;
+}
+.btn-enviar:hover{
+    background: linear-gradient(140deg, #000000 30%, rgb(0, 31, 101));
+    color: red;
+    transform: scale(0.9);
+}
+#feacture-content h4, p{
+    color: crimson;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+#feacture-content p{
+    margin-top: 60px;
+}
+#feacture-content .location{
+    background: url(../img/contacto2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#feacture-content .email{
+    background: url(../img/contacto1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#feacture-content .phone{
+    background: url(../img/contacto3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:800px){
+    .py-80{
+        padding: 60px 0;
+    }
+    
+    .py-30{
+        padding: 20px 0;
+    }
+    .box{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        float: none;
+    }
+    #showcase{
+        height: auto;
+    }
+    #navbar{
+        text-align: center;
+    }
+    ul{
+        float: none;
+        list-style: none;
+    }
+    ul li{
+        float: none;
+    }
+    ul li a.current{
+        color: black;
+        background: none;
+        font-size: 1.5em;
+    }
+    #reservation{
+        text-align: center;
+    }
+    #reservation h3{
+        float: none;
+        margin: 10px 0;
+        margin-top: 10px;
+        font-weight: lighter;
+        color: black;
+    }
+    #reservation a{
+        float: none;
+        margin: 10px 0;
+    }
+    #feactures h4{
+        padding-bottom: 10px;
+    }
+    #about .about-content{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+    .about-img{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+    #feacture-content p{
+        text-align: center;
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:380px){
+    #showcase h1{
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width:360px){
+    #showcase h1{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:350px){
+    #showcase{
+        padding: 10px;
+        height: auto;
+    }
+    #showcase h1{
+        font-size: 1.5em;
+    }
+    #showcase p{
+        font-size: 1.2em;
+    }
+    .box{
+        height: auto;
+    }
+}
+
+
